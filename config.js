@@ -23,8 +23,10 @@ const STUDY = {
   /* ~~~ Require every question answered before "Next" unlocks. ~~~ */
   requireAllAnswers: true,
 
-  /* ~~~ Optional: POST results here on submit. Leave "" to rely on
-         the CSV/JSON download only (works from file:// too). ~~~ */
+  /* ~~~ The relay that receives finished responses. Paste the Cloudflare
+         Worker URL here (see SETUP.md in the private folder). Leaving it ""
+         falls back to the participant downloading a file and sending it,
+         which loses anyone who closes the tab. ~~~ */
   submitEndpoint: "",
 
   /* =========================== METHODS ===========================

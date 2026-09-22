@@ -195,7 +195,7 @@
           </div>
           <p style="font-size:12.5px;color:var(--text-dim);margin:14px 0 0">
             Takes about ${STUDY.estimatedMinutes} minutes. Your answers are stored in this browser as you go,
-            so you can close the tab and come back. Nothing is uploaded until the final step.
+            so you can close the tab and come back. Your responses are sent when you finish.
           </p>
         </div>
 
@@ -208,6 +208,7 @@
         "anon-" + Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 8);
       state.participant.background = $("pbg").value;
       state.startedAt ||= new Date().toISOString();
+      state.submissionId ||= newId();
       ensureOrders();
       go(1);
     };
@@ -297,19 +298,37 @@
   function renderDone() {
     $("navbar").hidden = true;
     const payload = buildPayload();
+    const sent = state.submission?.status === "ok";
+    /* With a relay configured the participant should not have to do anything:
+     * we send on arrival and only ask for a file if that fails. Without one,
+     * the download IS the submission, so say so loudly. */
+    const box = !STUDY.submitEndpoint
+      ? `<div class="card">
+           <p style="margin-top:0"><b>Last step:</b> download your responses and send the file to the study coordinator.</p>
+           <div class="row">
+             <button class="btn primary" id="dlCsv">Download CSV</button>
+             <button class="btn" id="dlJson">Download JSON</button>
+           </div>
+         </div>`
+      : `<div class="card">
+           <p id="sendState" class="sendstate" style="margin-top:0">${
+             sent ? "\u2713 Your responses have been received. Nothing else to do." : "Sending your responses\u2026"
+           }</p>
+           <div id="sendFallback" ${sent ? "hidden" : ""}>
+             <p style="font-size:13px;color:var(--text-dim);margin:8px 0 10px">
+               If this does not succeed, please download the file and send it to the study coordinator.</p>
+             <div class="row">
+               <button class="btn" id="dlCsv">Download CSV</button>
+               <button class="btn" id="dlJson">Download JSON</button>
+             </div>
+           </div>
+         </div>`;
+
     app.innerHTML = `
       <div class="prose">
         <h1>Thank you.</h1>
         <p class="lede">You rated ${nScenes()} scenes × ${STUDY.methods.length} methods × ${STUDY.questions.length} criteria.</p>
-        <div class="card">
-          <p style="margin-top:0"><b>Last step:</b> save your responses and send the file back to the study coordinator.</p>
-          <div class="row">
-            <button class="btn primary" id="dlCsv">Download CSV</button>
-            <button class="btn" id="dlJson">Download JSON</button>
-            ${STUDY.submitEndpoint ? `<button class="btn" id="upload">Upload to server</button>` : ""}
-          </div>
-          <p id="uploadMsg" class="status" style="margin-bottom:0"></p>
-        </div>
+        ${box}
         <h2>Your summary</h2>
         ${summaryTable(payload)}
         <div class="card" style="margin-top:26px">
@@ -322,8 +341,9 @@
         </div>
       </div>`;
 
-    $("dlCsv").onclick = () => download(`${payload.participant.id}_ratings.csv`, toCSV(payload), "text/csv");
-    $("dlJson").onclick = () => download(`${payload.participant.id}_ratings.json`, JSON.stringify(payload, null, 2), "application/json");
+    const fileBase = String(payload.participant.id).replace(/[^A-Za-z0-9_-]/g, "_") || "responses";
+    $("dlCsv").onclick = () => download(`${fileBase}_ratings.csv`, toCSV(payload), "text/csv");
+    $("dlJson").onclick = () => download(`${fileBase}_ratings.json`, JSON.stringify(payload, null, 2), "application/json");
     $("backBtn").onclick = () => go(nScenes());
     $("resetBtn").onclick = () => {
       if (confirm("Clear this session? Make sure the responses have been saved first — this cannot be undone.")) {
@@ -332,20 +352,21 @@
         location.reload();
       }
     };
-    if (STUDY.submitEndpoint) {
-      $("upload").onclick = async () => {
-        const msg = $("uploadMsg");
-        msg.textContent = "Uploading…";
-        try {
-          const r = await fetch(STUDY.submitEndpoint, {
-            method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(payload),
-          });
-          msg.textContent = r.ok ? "Uploaded — you're done." : `Upload failed (HTTP ${r.status}). Please download the file instead.`;
-          msg.className = "status" + (r.ok ? " ready" : "");
-        } catch (e) {
-          msg.textContent = "Upload failed. Please download the file and send it manually.";
+    if (STUDY.submitEndpoint && !sent) {
+      const el = $("sendState");
+      submitPayload(payload, (msg) => { el.textContent = msg; }).then((ok) => {
+        if (ok) {
+          el.textContent = "\u2713 Your responses have been received. Nothing else to do.";
+          el.classList.add("ok");
+          $("sendFallback").hidden = true;
+        } else {
+          el.innerHTML =
+            "<b>Your responses could not be sent.</b> Nothing was lost \u2014 please download the " +
+            "file below and send it to the study coordinator.";
+          el.classList.add("bad");
+          $("sendFallback").hidden = false;
         }
-      };
+      });
     }
   }
 
@@ -369,7 +390,13 @@
   }
 
   /* ---------------- results ---------------- */
+  const newId = () => Date.now().toString(36) + "-" + Math.random().toString(36).slice(2, 10);
+
   function buildPayload() {
+    /* A session resumed from before this field existed, or any path that
+     * skipped the welcome screen, would otherwise submit a null id and every
+     * such response would collide on the same filename. */
+    if (!state.submissionId) { state.submissionId = newId(); save(); }
     const rows = [];
     for (const sid of state.sceneOrder || STUDY.scenes.map((s) => s.id)) {
       for (const mk of state.methodOrder?.[sid] || STUDY.methods.map((m) => m.key)) {
@@ -421,6 +448,48 @@
     const lines = [cols.join(",")];
     for (const r of p.rows) lines.push(cols.map((c) => csvCell(r[c])).join(","));
     return lines.join("\r\n"); // CRLF per the spec; Excel and pandas both accept it
+  }
+
+  /* ---------------- submission ----------------
+   * Sent as text/plain deliberately: an application/json body triggers a CORS
+   * preflight, and a failed preflight would silently lose every response.
+   * text/plain is a "simple request" and goes straight through; the relay
+   * reads the raw body and parses it itself. */
+  async function postOnce(payload, timeoutMs = 20000) {
+    const ctl = new AbortController();
+    const timer = setTimeout(() => ctl.abort(), timeoutMs);
+    try {
+      const r = await fetch(STUDY.submitEndpoint, {
+        method: "POST",
+        headers: { "Content-Type": "text/plain;charset=utf-8" },
+        body: JSON.stringify(payload),
+        signal: ctl.signal,
+      });
+      if (!r.ok) throw new Error("HTTP " + r.status);
+      return await r.json().catch(() => ({ ok: true }));
+    } finally {
+      clearTimeout(timer);
+    }
+  }
+
+  async function submitPayload(payload, onStatus) {
+    const delays = [0, 3000, 8000]; // three attempts, backing off
+    let lastErr;
+    for (let i = 0; i < delays.length; i++) {
+      if (delays[i]) await new Promise((r) => setTimeout(r, delays[i]));
+      onStatus(i === 0 ? "Sending your responses…" : `Connection problem — retrying (${i + 1}/${delays.length})…`);
+      try {
+        const res = await postOnce(payload);
+        state.submission = { status: "ok", at: new Date().toISOString(), attempts: i + 1, path: res.path || null };
+        save();
+        return true;
+      } catch (e) {
+        lastErr = e;
+      }
+    }
+    state.submission = { status: "failed", at: new Date().toISOString(), attempts: delays.length, error: String(lastErr) };
+    save();
+    return false;
   }
 
   function download(name, text, mime) {
