@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Scene Reconstruction Study</title>
+<link rel="stylesheet" href="style.css?v=20260922223634">
+</head>
+<body>
+
+<div class="topbar">
+  <div class="topbar-inner">
+    <span class="brand" id="brand">Scene Reconstruction Study</span>
+    <span class="spacer"></span>
+    <span class="counter" id="counter"></span>
+    <button class="btn ghost" id="themeBtn" title="Toggle light/dark">◑</button>
+  </div>
+  <div class="progress"><i id="progressBar"></i></div>
+</div>
+
+<main id="app"></main>
+
+<div class="navbar" id="navbar" hidden>
+  <div class="navbar-inner">
+    <button class="btn" id="prevBtn">← Back</button>
+    <span class="status" id="status"></span>
+    <span class="spacer"></span>
+    <button class="btn primary" id="nextBtn">Next →</button>
+  </div>
+</div>
+
+<div class="lightbox" id="lightbox">
+  <div>
+    <img id="lightboxImg" alt="">
+    <div class="cap" id="lightboxCap"></div>
+  </div>
+</div>
+
+<script src="config.js?v=20260922223634"></script>
+<script src="app.js?v=20260922223634"></script>
+</body>
+</html>

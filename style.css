@@ -1,0 +1,241 @@
+/* ---------- tokens ---------- */
+:root {
+  --bg: #f7f7f5;
+  --surface: #ffffff;
+  --surface-2: #f0efec;
+  --border: #dedcd6;
+  --border-strong: #c3c0b8;
+  --text: #1c1b19;
+  --text-dim: #67645d;
+  --accent: #1a4fa0;
+  --accent-soft: #e6edf9;
+  --star: #e0a400;
+  --star-off: #cfcdc6;
+  --ok: #1d7a4c;
+  --warn: #a8560b;
+  --radius: 10px;
+  --shadow: 0 1px 2px rgba(0, 0, 0, .06), 0 6px 18px rgba(0, 0, 0, .05);
+  --mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+  --sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Helvetica, Arial, sans-serif;
+  --serif: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #17181a;
+    --surface: #202225;
+    --surface-2: #282a2e;
+    --border: #35383d;
+    --border-strong: #4a4e55;
+    --text: #e9e8e4;
+    --text-dim: #a2a099;
+    --accent: #7aa7f0;
+    --accent-soft: #23304a;
+    --star: #f0bd3a;
+    --star-off: #4d5057;
+    --ok: #57c08c;
+    --warn: #e2a262;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .4), 0 6px 20px rgba(0, 0, 0, .35);
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #17181a; --surface: #202225; --surface-2: #282a2e; --border: #35383d;
+  --border-strong: #4a4e55; --text: #e9e8e4; --text-dim: #a2a099; --accent: #7aa7f0;
+  --accent-soft: #23304a; --star: #f0bd3a; --star-off: #4d5057; --ok: #57c08c; --warn: #e2a262;
+  --shadow: 0 1px 2px rgba(0,0,0,.4), 0 6px 20px rgba(0,0,0,.35);
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--sans);
+  font-size: 15px;
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+}
+img { display: block; max-width: 100%; }
+button { font: inherit; color: inherit; }
+
+/* ---------- chrome ---------- */
+.topbar {
+  position: sticky; top: 0; z-index: 40;
+  background: color-mix(in srgb, var(--surface) 88%, transparent);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid var(--border);
+}
+.topbar-inner {
+  max-width: 1720px; margin: 0 auto; padding: 10px 16px;
+  display: flex; align-items: center; gap: 16px; flex-wrap: wrap;
+}
+.brand { font-family: var(--serif); font-size: 16px; font-weight: 600; letter-spacing: .01em; }
+.spacer { flex: 1 1 auto; }
+.counter { font-family: var(--mono); font-size: 12.5px; color: var(--text-dim); white-space: nowrap; }
+.progress { height: 4px; background: var(--surface-2); }
+.progress > i { display: block; height: 100%; width: 0; background: var(--accent); transition: width .25s ease; }
+
+main { max-width: 1720px; margin: 0 auto; padding: 12px 14px 90px; }
+
+/* ---------- welcome / done ---------- */
+.prose { max-width: 720px; margin: 0 auto; }
+.prose h1 { font-family: var(--serif); font-size: 30px; line-height: 1.2; margin: 24px 0 8px; }
+.prose h2 { font-size: 16px; text-transform: uppercase; letter-spacing: .08em; color: var(--text-dim); margin: 32px 0 8px; }
+.prose p { margin: 12px 0; }
+.prose ul { margin: 12px 0; padding-left: 20px; }
+.prose li { margin: 6px 0; }
+.lede { font-size: 17px; color: var(--text-dim); }
+
+.card {
+  background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); box-shadow: var(--shadow); padding: 20px;
+}
+.field { display: grid; gap: 6px; margin: 14px 0; }
+.field label { font-size: 13px; font-weight: 600; color: var(--text-dim); }
+.field input, .field select, .field textarea {
+  font: inherit; color: var(--text); background: var(--bg);
+  border: 1px solid var(--border-strong); border-radius: 8px; padding: 9px 11px; width: 100%;
+}
+.field input:focus-visible, .field textarea:focus-visible, .field select:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 1px;
+}
+
+.btn {
+  border: 1px solid var(--border-strong); background: var(--surface);
+  border-radius: 8px; padding: 9px 18px; cursor: pointer; font-weight: 600; font-size: 14px;
+}
+.btn:hover { background: var(--surface-2); }
+.btn.primary { background: var(--accent); border-color: var(--accent); color: #fff; }
+.btn.primary:hover { filter: brightness(1.08); }
+.btn[disabled] { opacity: .45; cursor: not-allowed; }
+.btn.ghost { border-color: transparent; background: transparent; color: var(--text-dim); }
+.btn.ghost:hover { background: var(--surface-2); }
+
+/* ---------- scene layout ---------- */
+.scene-grid { display: grid; grid-template-columns: minmax(0, 1fr) 262px; gap: 14px; align-items: start; }
+@media (max-width: 1080px) { .scene-grid { grid-template-columns: 1fr; } }
+@media (min-width: 1700px) { .scene-grid { grid-template-columns: minmax(0, 1fr) 280px; } }
+
+.panel { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); box-shadow: var(--shadow); overflow: hidden; margin-bottom: 16px; }
+.panel > header {
+  padding: 9px 14px; border-bottom: 1px solid var(--border); background: var(--surface-2);
+  display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap;
+}
+.panel > header h3 { margin: 0; font-size: 13px; text-transform: uppercase; letter-spacing: .07em; }
+.panel > header .hint { font-size: 12.5px; color: var(--text-dim); }
+.panel-body { padding: 12px; }
+
+.strip {
+  display: grid; gap: 10px; grid-template-columns: repeat(var(--n, 5), minmax(0, 1fr));
+  margin: 0 auto;
+}
+
+/* ---------- fitting the two rows to the viewport ----------
+   Tiles are width-driven (image aspect = source aspect, so never letterboxed).
+   A row's height is therefore width / n * aspect, so capping the row's WIDTH
+   is what keeps it inside the height the screen can spare:
+       maxWidth = availableHeight / aspect * n + gaps
+   --avail is the viewport minus the page chrome, split between the two rows. */
+.strip.persp, .strip.ortho-strip { --avail: max(210px, calc(100vh - 300px)); }
+/* The split is 4:3, not arbitrary: a 3:4 portrait row is 0.75x as tall per unit
+   width as a 1:1 square row, so giving the perspective row 4/7 of the height and
+   the plan row 3/7 makes the two max-widths come out identical. The two blocks
+   therefore stay exactly the same width at every viewport size. */
+.strip.persp { --row-h: calc(var(--avail) * 4 / 7); max-width: calc(var(--row-h) * 0.75 * var(--n) + 40px); }
+.strip.ortho-strip { --row-h: calc(var(--avail) * 3 / 7); max-width: calc(var(--row-h) * var(--n) + 40px); }
+/* below this width the row would crush; scroll it sideways instead of wrapping */
+@media (max-width: 720px) {
+  .strip { grid-template-columns: none; grid-auto-flow: column; grid-auto-columns: 66%; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; }
+  .strip .tile { scroll-snap-align: start; }
+}
+.tile { display: grid; }
+.tile figure { margin: 0; border: 1px solid var(--border); border-radius: 8px; overflow: hidden; background: var(--surface-2); }
+/* source frames are portrait 3:4 and plan views square; the tile matches the
+   source aspect, so contain never letterboxes and nothing is ever cropped */
+.tile figure img { width: 100%; aspect-ratio: 3 / 4; object-fit: contain; cursor: zoom-in; background: var(--surface-2); display: block; }
+.tile.ortho figure img { aspect-ratio: 1 / 1; object-fit: contain; padding: 0; }
+/* the label is one letter, so it rides in the image's corner rather than
+   costing a whole line of height under every tile */
+.tile { position: relative; }
+.tile figure { position: relative; }
+.tile figcaption {
+  position: absolute; top: 6px; left: 6px; z-index: 2;
+  font-size: 12px; font-weight: 700; letter-spacing: .04em; line-height: 1;
+  padding: 4px 7px; border-radius: 5px;
+  color: #fff; background: rgba(20, 22, 26, .62); backdrop-filter: blur(2px);
+}
+.tile.ref figcaption { background: var(--accent); color: #fff; letter-spacing: .02em; }
+.tile.ref figure { border-color: var(--accent); border-width: 2px; }
+.missing {
+  display: grid; place-items: center; aspect-ratio: 3 / 4; gap: 4px; padding: 10px;
+  font-family: var(--mono); font-size: 11px; color: var(--warn); text-align: center; word-break: break-all;
+}
+.tile.ortho .missing { aspect-ratio: 1 / 1; }
+
+/* ---------- rating side ---------- */
+.rater { position: sticky; top: 60px; font-size: 14px; }
+.rater .panel { margin-bottom: 8px; }
+.rater .field label { font-size: 11.5px; }
+.rater textarea { font-size: 13px; }
+.qhead { padding: 6px 10px; border-bottom: 1px solid var(--border); }
+.qhead h4 { margin: 0 0 2px; font-size: 13px; }
+.qhead p { margin: 0; font-size: 11.5px; line-height: 1.42; color: var(--text-dim); }
+
+.mrow { display: grid; grid-template-columns: 30px 1fr; gap: 8px; align-items: center; padding: 2px 10px; border-bottom: 1px solid var(--border); }
+.mrow:last-child { border-bottom: 0; }
+.mrow .mlabel {
+  font-family: var(--mono); font-weight: 700; font-size: 13px; text-align: center;
+  background: var(--accent-soft); color: var(--accent); border-radius: 6px; padding: 5px 0;
+}
+.stars { display: flex; gap: 2px; align-items: center; }
+.star {
+  border: 0; background: none; cursor: pointer; padding: 2px; line-height: 0;
+  color: var(--star-off); transition: transform .08s ease;
+}
+.star svg { width: 18px; height: 18px; }
+.star:hover { transform: scale(1.12); }
+.star.on { color: var(--star); }
+.star:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px; }
+.scale-legend { display: flex; justify-content: space-between; gap: 8px; font-size: 10.5px; color: var(--text-dim); padding: 3px 10px 5px; }
+
+
+/* ---------- footer nav ---------- */
+.navbar {
+  position: fixed; left: 0; right: 0; bottom: 0; z-index: 45;
+  background: color-mix(in srgb, var(--surface) 92%, transparent);
+  backdrop-filter: blur(10px); border-top: 1px solid var(--border);
+}
+.navbar-inner { max-width: 1720px; margin: 0 auto; padding: 12px 16px; display: flex; align-items: center; gap: 12px; }
+.status { font-size: 12.5px; color: var(--text-dim); }
+.status.ready { color: var(--ok); font-weight: 600; }
+
+/* ---------- lightbox ---------- */
+.lightbox {
+  position: fixed; inset: 0; z-index: 100; display: none;
+  background: rgba(0, 0, 0, .86); place-items: center; padding: 24px; cursor: zoom-out;
+}
+.lightbox.open { display: grid; }
+.lightbox img { max-width: 96vw; max-height: 86vh; object-fit: contain; border-radius: 6px; }
+.lightbox .cap { color: #eee; font-family: var(--mono); font-size: 13px; margin-top: 10px; text-align: center; }
+
+.pill { display: inline-block; font-family: var(--mono); font-size: 11px; padding: 2px 8px; border-radius: 999px; background: var(--surface-2); border: 1px solid var(--border); color: var(--text-dim); }
+.row { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+code { font-family: var(--mono); font-size: .9em; background: var(--surface-2); padding: 1px 5px; border-radius: 4px; }
+
+/* compact scene heading so the whole rating rail fits above the fold */
+.scene-head { display: flex; align-items: baseline; gap: 10px; margin: 0 0 8px; }
+.scene-head h2 { font-family: var(--serif); font-size: 18px; margin: 0; }
+
+
+}
+@media (max-width: 900px) {
+  .cmp { grid-template-columns: 1fr; }
+  .cmp .ref-slot { max-width: 52%; }
+  .ortho-block .cmp { max-width: none; }
+}
+
+/* shown only when the browser refuses to persist progress */
+.warnbar {
+  position: sticky; top: 0; z-index: 60;
+  background: #8a2c0d; color: #fff; font-size: 13.5px; line-height: 1.45;
+  padding: 10px 16px; text-align: center;
+}

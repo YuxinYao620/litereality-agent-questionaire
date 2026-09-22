@@ -1,0 +1,13 @@
+.DS_Store
+__pycache__/
+
+# Belt and braces: the slug -> real name key must never be published, or the
+# study stops being blind. It lives outside this directory on purpose; these
+# patterns only exist to stop a stray copy being committed by accident.
+study_key.json
+method_key.json
+*_key.json
+decode_results.py
+build_assets.py
+verify_mapping.py
+results/
