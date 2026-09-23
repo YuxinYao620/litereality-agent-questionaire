@@ -1,0 +1,29 @@
+{
+  "submissionId": "namemap-check",
+  "participant": {
+    "id": "NAMEMAP-CHECK"
+  },
+  "sceneOrder": [
+    "Corridors-MIL-Zhening"
+  ],
+  "methodOrder": {
+    "Corridors-MIL-Zhening": [
+      "LiteRealityAgent",
+      "GPT6v1+input"
+    ]
+  },
+  "timingsMs": {
+    "Corridors-MIL-Zhening": 999
+  },
+  "rows": [
+    {
+      "participant": "NAMEMAP-CHECK",
+      "scene": "Corridors-MIL-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 4
+    }
+  ]
+}
