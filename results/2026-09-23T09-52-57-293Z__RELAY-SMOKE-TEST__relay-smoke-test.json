@@ -1,0 +1,17 @@
+{
+  "submissionId": "relay-smoke-test",
+  "participant": {
+    "id": "RELAY-SMOKE-TEST"
+  },
+  "rows": [
+    {
+      "participant": "RELAY-SMOKE-TEST",
+      "scene": "scene01",
+      "method": "m1",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 3
+    }
+  ]
+}
