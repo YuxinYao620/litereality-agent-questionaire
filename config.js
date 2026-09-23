@@ -17,7 +17,16 @@ const STUDY = {
          Keeps the study blind. Set to false for debugging. ~~~ */
   shuffleMethods: true,
 
-  /* ~~~ Randomise the order in which scenes are presented. ~~~ */
+  /* ~~~ How many of the scenes below each participant actually rates.
+         They are drawn at random, without repeats, and in random order, so
+         every participant sees a different subset. Set to 0 (or the full
+         count) to show all of them. Fewer scenes means a shorter session but
+         fewer ratings per scene, so you need proportionally more
+         participants for the same coverage. ~~~ */
+  scenesPerParticipant: 5,
+
+  /* ~~~ Randomise the order in which scenes are presented. Sampling a subset
+         implies shuffling, so this only matters when every scene is shown. ~~~ */
   shuffleScenes: false,
 
   /* ~~~ Require every question answered before "Next" unlocks. ~~~ */

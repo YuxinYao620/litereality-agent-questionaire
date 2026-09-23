@@ -17,6 +17,7 @@
     STUDY.methods.map((m) => m.key).join("|"),
     STUDY.scenes.map((s) => s.id).join("|"),
     STUDY.questions.map((q) => q.id).join("|"),
+    "n=" + (STUDY.scenesPerParticipant || 0),
   ].join("::");
 
   /* ---------------- state ---------------- */
@@ -92,7 +93,11 @@
   function ensureOrders() {
     if (!state.sceneOrder) {
       const ids = STUDY.scenes.map((s) => s.id);
-      state.sceneOrder = STUDY.shuffleScenes ? shuffle(ids) : ids;
+      const n = subsetSize();
+      /* A subset is drawn without repeats; shuffle then take the first n.
+       * Showing every scene keeps the configured ordering unless asked. */
+      state.sceneOrder =
+        n < ids.length ? shuffle(ids).slice(0, n) : STUDY.shuffleScenes ? shuffle(ids) : ids;
     }
     if (!state.methodOrder) state.methodOrder = {};
     for (const s of STUDY.scenes) {
@@ -112,7 +117,13 @@
 
   const sceneById = (id) => STUDY.scenes.find((s) => s.id === id);
   const methodByKey = (k) => STUDY.methods.find((m) => m.key === k);
-  const nScenes = () => STUDY.scenes.length;
+  /* How many scenes this participant rates. Before they start there is no
+   * draw yet, so fall back to the configured subset size. */
+  const subsetSize = () => {
+    const n = STUDY.scenesPerParticipant;
+    return !n || n >= STUDY.scenes.length ? STUDY.scenes.length : n;
+  };
+  const nScenes = () => (state.sceneOrder ? state.sceneOrder.length : subsetSize());
 
   /* ---------------- rendering helpers ---------------- */
   const esc = (s) => String(s).replace(/[&<>"]/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
@@ -166,7 +177,11 @@
         <p class="lede">${STUDY.subtitle}</p>
 
         <h2>What you will do</h2>
-        <p>For each of the ${nScenes()} scenes you will see two comparisons:</p>
+        <p>You will rate <b>${subsetSize()} scenes</b>${
+          subsetSize() < STUDY.scenes.length
+            ? `, drawn at random from a pool of ${STUDY.scenes.length}`
+            : ""
+        }. For each one you will see two comparisons:</p>
         <ul>
           <li><b>Perspective view</b> — one real RGB frame from the scene, followed by each method's reconstruction rendered from that same camera pose.</li>
           <li><b>Orthographic plan view</b> — a top-down view of the whole scene for each method.</li>
@@ -425,7 +440,7 @@
       finishedAt: new Date().toISOString(),
       durationMs: state.startedAt ? Date.now() - Date.parse(state.startedAt) : null,
       client: { ua: navigator.userAgent, screen: `${screen.width}x${screen.height}`, tz: Intl.DateTimeFormat().resolvedOptions().timeZone },
-      complete: STUDY.scenes.every((s) => sceneComplete(s.id).done),
+      complete: (state.sceneOrder || []).every((sid) => sceneComplete(sid).done),
       sceneOrder: state.sceneOrder,
       methodOrder: state.methodOrder,
       timingsMs: state.timings,
