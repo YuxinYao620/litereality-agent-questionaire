@@ -27,7 +27,7 @@ const STUDY = {
          Worker URL here (see SETUP.md in the private folder). Leaving it ""
          falls back to the participant downloading a file and sending it,
          which loses anyone who closes the tab. ~~~ */
-  submitEndpoint: "",
+  submitEndpoint: "https://study-relay.rosayaoyx.workers.dev",
 
   /* =========================== METHODS ===========================
    * `key`   OPAQUE slug (m1, m2, ...). This is what goes into image
