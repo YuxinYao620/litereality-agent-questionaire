@@ -1,0 +1,1187 @@
+{
+  "study": "3D Scene Reconstruction — Perceptual Quality Study",
+  "submissionId": "mudxr6ni-7nm4mc00",
+  "configSig": "m1|m2|m3|m4::scene01|scene02|scene03|scene04|scene05|scene06|scene07|scene08|scene09|scene10::layout|objects|overall",
+  "participant": {
+    "id": "0",
+    "display": "",
+    "background": "Expert / I work in this area"
+  },
+  "startedAt": "2026-09-22T21:54:58.653Z",
+  "finishedAt": "2026-09-23T10:03:56.142Z",
+  "durationMs": 43737489,
+  "client": {
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "screen": "1920x1080",
+    "tz": "Europe/London"
+  },
+  "complete": true,
+  "sceneOrder": [
+    "scene01",
+    "scene02",
+    "scene03",
+    "scene04",
+    "scene05",
+    "scene06",
+    "scene07",
+    "scene08",
+    "scene09",
+    "scene10"
+  ],
+  "methodOrder": {
+    "scene01": [
+      "m2",
+      "m4",
+      "m1",
+      "m3"
+    ],
+    "scene02": [
+      "m4",
+      "m1",
+      "m2",
+      "m3"
+    ],
+    "scene03": [
+      "m3",
+      "m1",
+      "m2",
+      "m4"
+    ],
+    "scene04": [
+      "m1",
+      "m2",
+      "m4",
+      "m3"
+    ],
+    "scene05": [
+      "m3",
+      "m4",
+      "m2",
+      "m1"
+    ],
+    "scene06": [
+      "m2",
+      "m1",
+      "m3",
+      "m4"
+    ],
+    "scene07": [
+      "m2",
+      "m4",
+      "m3",
+      "m1"
+    ],
+    "scene08": [
+      "m3",
+      "m1",
+      "m4",
+      "m2"
+    ],
+    "scene09": [
+      "m4",
+      "m2",
+      "m3",
+      "m1"
+    ],
+    "scene10": [
+      "m1",
+      "m4",
+      "m2",
+      "m3"
+    ]
+  },
+  "timingsMs": {
+    "scene01": 74936,
+    "scene02": 42475,
+    "scene03": 54429,
+    "scene04": 49418,
+    "scene05": 68750,
+    "scene06": 37150,
+    "scene07": 51183,
+    "scene08": 96216,
+    "scene09": 21466,
+    "scene10": 47699
+  },
+  "rows": [
+    {
+      "participant": "0",
+      "scene": "scene01",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene01",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene01",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene01",
+      "method": "m4",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene01",
+      "method": "m4",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene01",
+      "method": "m4",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene01",
+      "method": "m1",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene01",
+      "method": "m1",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene01",
+      "method": "m1",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene01",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene01",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene01",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene02",
+      "method": "m4",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene02",
+      "method": "m4",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene02",
+      "method": "m4",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene02",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene02",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene02",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene02",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene02",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene02",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene02",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene02",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene02",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene03",
+      "method": "m3",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene03",
+      "method": "m3",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene03",
+      "method": "m3",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene03",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene03",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene03",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene03",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene03",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene03",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene03",
+      "method": "m4",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene03",
+      "method": "m4",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene03",
+      "method": "m4",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene04",
+      "method": "m1",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene04",
+      "method": "m1",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene04",
+      "method": "m1",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene04",
+      "method": "m2",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene04",
+      "method": "m2",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene04",
+      "method": "m2",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene04",
+      "method": "m4",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene04",
+      "method": "m4",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene04",
+      "method": "m4",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene04",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene04",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene04",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene05",
+      "method": "m3",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene05",
+      "method": "m3",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene05",
+      "method": "m3",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene05",
+      "method": "m4",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene05",
+      "method": "m4",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene05",
+      "method": "m4",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene05",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene05",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene05",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene05",
+      "method": "m1",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene05",
+      "method": "m1",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene05",
+      "method": "m1",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene06",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene06",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene06",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene06",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene06",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene06",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene06",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene06",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene06",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene06",
+      "method": "m4",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene06",
+      "method": "m4",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene06",
+      "method": "m4",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene07",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene07",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene07",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene07",
+      "method": "m4",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene07",
+      "method": "m4",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene07",
+      "method": "m4",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene07",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene07",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene07",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene07",
+      "method": "m1",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene07",
+      "method": "m1",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene07",
+      "method": "m1",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene08",
+      "method": "m3",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene08",
+      "method": "m3",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene08",
+      "method": "m3",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene08",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene08",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene08",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "0",
+      "scene": "scene08",
+      "method": "m4",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene08",
+      "method": "m4",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene08",
+      "method": "m4",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene08",
+      "method": "m2",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene08",
+      "method": "m2",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene08",
+      "method": "m2",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene09",
+      "method": "m4",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene09",
+      "method": "m4",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene09",
+      "method": "m4",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene09",
+      "method": "m2",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene09",
+      "method": "m2",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene09",
+      "method": "m2",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene09",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene09",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene09",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene09",
+      "method": "m1",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene09",
+      "method": "m1",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene09",
+      "method": "m1",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene10",
+      "method": "m1",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene10",
+      "method": "m1",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene10",
+      "method": "m1",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene10",
+      "method": "m4",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene10",
+      "method": "m4",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene10",
+      "method": "m4",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "0",
+      "scene": "scene10",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene10",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene10",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "0",
+      "scene": "scene10",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "0",
+      "scene": "scene10",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "0",
+      "scene": "scene10",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 1
+    }
+  ]
+}
