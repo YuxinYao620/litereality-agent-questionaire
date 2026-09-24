@@ -1,0 +1,637 @@
+{
+  "study": "3D Scene Reconstruction — Perceptual Quality Study",
+  "submissionId": "mufkm3mn-5vip5iya",
+  "configSig": "m1|m2|m3|m4::scene01|scene02|scene03|scene04|scene05|scene06|scene07|scene08|scene09|scene10::layout|objects|overall::n=5",
+  "participant": {
+    "id": "bohan",
+    "display": "",
+    "background": "Some — I've read about it"
+  },
+  "startedAt": "2026-09-24T13:31:36.287Z",
+  "finishedAt": "2026-09-24T13:36:02.486Z",
+  "durationMs": 266199,
+  "client": {
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/27.0 Safari/605.1.15",
+    "screen": "1470x956",
+    "tz": "Europe/London"
+  },
+  "complete": true,
+  "sceneOrder": [
+    "MIL-Meeting-Zhening",
+    "Gallery_6130",
+    "fallside-office-Zhening",
+    "Airbnb-Room-Zhening",
+    "Airbnb-Cam-Zhening"
+  ],
+  "methodOrder": {
+    "Office-Elliott": [
+      "LiteReality",
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent"
+    ],
+    "Gallery_6130": [
+      "GPT6v1+input",
+      "LiteReality",
+      "LiteRealityAgent",
+      "fable5.1+input"
+    ],
+    "Corridors-MIL-Zhening": [
+      "LiteReality",
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent"
+    ],
+    "Airbnb-Cam-Zhening": [
+      "LiteReality",
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent"
+    ],
+    "Airbnb-Room-Zhening": [
+      "LiteRealityAgent",
+      "GPT6v1+input",
+      "LiteReality",
+      "fable5.1+input"
+    ],
+    "fallside-kitchen-Zhening": [
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "LiteReality"
+    ],
+    "MIL-Meeting-Zhening": [
+      "fable5.1+input",
+      "GPT6v1+input",
+      "LiteReality",
+      "LiteRealityAgent"
+    ],
+    "Psi_2_seminar-Zhening": [
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "GPT6v1+input",
+      "LiteReality"
+    ],
+    "fallside-office-Zhening": [
+      "LiteReality",
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "GPT6v1+input"
+    ],
+    "PSi_2_meeting-Zhening": [
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "GPT6v1+input",
+      "LiteReality"
+    ]
+  },
+  "timingsMs": {
+    "MIL-Meeting-Zhening": 116448,
+    "Gallery_6130": 28844,
+    "fallside-office-Zhening": 42341,
+    "Airbnb-Room-Zhening": 46374,
+    "Airbnb-Cam-Zhening": 32181
+  },
+  "rows": [
+    {
+      "participant": "bohan",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "bohan",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "bohan",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "bohan",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "bohan",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "bohan",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "bohan",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "bohan",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "bohan",
+      "scene": "Gallery_6130",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "Gallery_6130",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "Gallery_6130",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "Gallery_6130",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "Gallery_6130",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "Gallery_6130",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "Gallery_6130",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "bohan",
+      "scene": "Gallery_6130",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "bohan",
+      "scene": "Gallery_6130",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "bohan",
+      "scene": "Gallery_6130",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "Gallery_6130",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "bohan",
+      "scene": "Gallery_6130",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "bohan",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "bohan",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "fallside-office-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "fallside-office-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "fallside-office-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "bohan",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "bohan",
+      "scene": "fallside-office-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "bohan",
+      "scene": "fallside-office-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "fallside-office-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "bohan",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 5
+    }
+  ]
+}
