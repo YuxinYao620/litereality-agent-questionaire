@@ -1,0 +1,637 @@
+{
+  "study": "3D Scene Reconstruction — Perceptual Quality Study",
+  "submissionId": "mug4tjbf-rr0bei99",
+  "configSig": "m1|m2|m3|m4::scene01|scene02|scene03|scene04|scene05|scene06|scene07|scene08|scene09|scene10::layout|objects|overall::n=5",
+  "participant": {
+    "id": "Jimmy Liu",
+    "display": "",
+    "background": "Expert / I work in this area"
+  },
+  "startedAt": "2026-09-24T22:57:15.531Z",
+  "finishedAt": "2026-09-24T23:02:30.438Z",
+  "durationMs": 314908,
+  "client": {
+    "ua": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36",
+    "screen": "2246x1264",
+    "tz": "Europe/London"
+  },
+  "complete": true,
+  "sceneOrder": [
+    "Gallery_6130",
+    "MIL-Meeting-Zhening",
+    "fallside-office-Zhening",
+    "Office-Elliott",
+    "fallside-kitchen-Zhening"
+  ],
+  "methodOrder": {
+    "Office-Elliott": [
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "LiteReality",
+      "GPT6v1+input"
+    ],
+    "Gallery_6130": [
+      "LiteReality",
+      "fable5.1+input",
+      "GPT6v1+input",
+      "LiteRealityAgent"
+    ],
+    "Corridors-MIL-Zhening": [
+      "LiteRealityAgent",
+      "fable5.1+input",
+      "GPT6v1+input",
+      "LiteReality"
+    ],
+    "Airbnb-Cam-Zhening": [
+      "GPT6v1+input",
+      "LiteReality",
+      "LiteRealityAgent",
+      "fable5.1+input"
+    ],
+    "Airbnb-Room-Zhening": [
+      "LiteReality",
+      "LiteRealityAgent",
+      "GPT6v1+input",
+      "fable5.1+input"
+    ],
+    "fallside-kitchen-Zhening": [
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "GPT6v1+input",
+      "LiteReality"
+    ],
+    "MIL-Meeting-Zhening": [
+      "LiteReality",
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent"
+    ],
+    "Psi_2_seminar-Zhening": [
+      "LiteReality",
+      "GPT6v1+input",
+      "LiteRealityAgent",
+      "fable5.1+input"
+    ],
+    "fallside-office-Zhening": [
+      "GPT6v1+input",
+      "LiteRealityAgent",
+      "fable5.1+input",
+      "LiteReality"
+    ],
+    "PSi_2_meeting-Zhening": [
+      "LiteRealityAgent",
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteReality"
+    ]
+  },
+  "timingsMs": {
+    "Gallery_6130": 114973,
+    "MIL-Meeting-Zhening": 38942,
+    "fallside-office-Zhening": 62800,
+    "Office-Elliott": 66216,
+    "fallside-kitchen-Zhening": 31955
+  },
+  "rows": [
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Gallery_6130",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Gallery_6130",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Gallery_6130",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Gallery_6130",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Gallery_6130",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Gallery_6130",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Gallery_6130",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Gallery_6130",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Gallery_6130",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Gallery_6130",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Gallery_6130",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Gallery_6130",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-office-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-office-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-office-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-office-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-office-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-office-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Office-Elliott",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Office-Elliott",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Office-Elliott",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Office-Elliott",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Office-Elliott",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Office-Elliott",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Office-Elliott",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Office-Elliott",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Office-Elliott",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Office-Elliott",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Office-Elliott",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "Office-Elliott",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "Jimmy Liu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 1
+    }
+  ]
+}
