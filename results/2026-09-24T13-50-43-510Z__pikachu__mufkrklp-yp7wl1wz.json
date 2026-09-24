@@ -1,0 +1,637 @@
+{
+  "study": "3D Scene Reconstruction — Perceptual Quality Study",
+  "submissionId": "mufkrklp-yp7wl1wz",
+  "configSig": "m1|m2|m3|m4::scene01|scene02|scene03|scene04|scene05|scene06|scene07|scene08|scene09|scene10::layout|objects|overall::n=5",
+  "participant": {
+    "id": "pikachu",
+    "display": "",
+    "background": "Expert / I work in this area"
+  },
+  "startedAt": "2026-09-24T13:35:51.565Z",
+  "finishedAt": "2026-09-24T13:50:43.382Z",
+  "durationMs": 891817,
+  "client": {
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "screen": "1512x982",
+    "tz": "Europe/London"
+  },
+  "complete": true,
+  "sceneOrder": [
+    "fallside-office-Zhening",
+    "Office-Elliott",
+    "Psi_2_seminar-Zhening",
+    "MIL-Meeting-Zhening",
+    "PSi_2_meeting-Zhening"
+  ],
+  "methodOrder": {
+    "Office-Elliott": [
+      "LiteReality",
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent"
+    ],
+    "Gallery_6130": [
+      "LiteRealityAgent",
+      "fable5.1+input",
+      "GPT6v1+input",
+      "LiteReality"
+    ],
+    "Corridors-MIL-Zhening": [
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteReality",
+      "LiteRealityAgent"
+    ],
+    "Airbnb-Cam-Zhening": [
+      "LiteReality",
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent"
+    ],
+    "Airbnb-Room-Zhening": [
+      "fable5.1+input",
+      "GPT6v1+input",
+      "LiteRealityAgent",
+      "LiteReality"
+    ],
+    "fallside-kitchen-Zhening": [
+      "LiteReality",
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "GPT6v1+input"
+    ],
+    "MIL-Meeting-Zhening": [
+      "LiteRealityAgent",
+      "fable5.1+input",
+      "LiteReality",
+      "GPT6v1+input"
+    ],
+    "Psi_2_seminar-Zhening": [
+      "LiteReality",
+      "GPT6v1+input",
+      "LiteRealityAgent",
+      "fable5.1+input"
+    ],
+    "fallside-office-Zhening": [
+      "LiteRealityAgent",
+      "LiteReality",
+      "GPT6v1+input",
+      "fable5.1+input"
+    ],
+    "PSi_2_meeting-Zhening": [
+      "LiteReality",
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent"
+    ]
+  },
+  "timingsMs": {
+    "fallside-office-Zhening": 76049,
+    "Office-Elliott": 146614,
+    "Psi_2_seminar-Zhening": 485823,
+    "MIL-Meeting-Zhening": 73524,
+    "PSi_2_meeting-Zhening": 109794
+  },
+  "rows": [
+    {
+      "participant": "pikachu",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "pikachu",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "pikachu",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "pikachu",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "pikachu",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "pikachu",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "pikachu",
+      "scene": "fallside-office-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "fallside-office-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "pikachu",
+      "scene": "fallside-office-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "fallside-office-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "fallside-office-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "fallside-office-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Office-Elliott",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Office-Elliott",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Office-Elliott",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Office-Elliott",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Office-Elliott",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Office-Elliott",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Office-Elliott",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Office-Elliott",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Office-Elliott",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Office-Elliott",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Office-Elliott",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Office-Elliott",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "pikachu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "pikachu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "pikachu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "pikachu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "pikachu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "pikachu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "pikachu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "pikachu",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "pikachu",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "pikachu",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "pikachu",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "pikachu",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "pikachu",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "pikachu",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "pikachu",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "pikachu",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "pikachu",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 5
+    }
+  ]
+}
