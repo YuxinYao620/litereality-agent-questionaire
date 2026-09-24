@@ -1,0 +1,637 @@
+{
+  "study": "3D Scene Reconstruction — Perceptual Quality Study",
+  "submissionId": "mug65ytq-0iton0te",
+  "configSig": "m1|m2|m3|m4::scene01|scene02|scene03|scene04|scene05|scene06|scene07|scene08|scene09|scene10::layout|objects|overall::n=5",
+  "participant": {
+    "id": "anon-mug65ytq-85bqi9",
+    "display": "",
+    "background": "Some — I've read about it"
+  },
+  "startedAt": "2026-09-24T23:34:55.118Z",
+  "finishedAt": "2026-09-24T23:44:04.269Z",
+  "durationMs": 549151,
+  "client": {
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_2_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.78(0x18004e30) NetType/WIFI Language/zh_CN",
+    "screen": "393x852",
+    "tz": "Europe/London"
+  },
+  "complete": true,
+  "sceneOrder": [
+    "PSi_2_meeting-Zhening",
+    "Airbnb-Cam-Zhening",
+    "Office-Elliott",
+    "Airbnb-Room-Zhening",
+    "MIL-Meeting-Zhening"
+  ],
+  "methodOrder": {
+    "Office-Elliott": [
+      "LiteReality",
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent"
+    ],
+    "Gallery_6130": [
+      "fable5.1+input",
+      "GPT6v1+input",
+      "LiteRealityAgent",
+      "LiteReality"
+    ],
+    "Corridors-MIL-Zhening": [
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "LiteReality"
+    ],
+    "Airbnb-Cam-Zhening": [
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "GPT6v1+input",
+      "LiteReality"
+    ],
+    "Airbnb-Room-Zhening": [
+      "LiteRealityAgent",
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteReality"
+    ],
+    "fallside-kitchen-Zhening": [
+      "fable5.1+input",
+      "LiteReality",
+      "LiteRealityAgent",
+      "GPT6v1+input"
+    ],
+    "MIL-Meeting-Zhening": [
+      "LiteRealityAgent",
+      "fable5.1+input",
+      "GPT6v1+input",
+      "LiteReality"
+    ],
+    "Psi_2_seminar-Zhening": [
+      "LiteRealityAgent",
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteReality"
+    ],
+    "fallside-office-Zhening": [
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "GPT6v1+input",
+      "LiteReality"
+    ],
+    "PSi_2_meeting-Zhening": [
+      "LiteReality",
+      "GPT6v1+input",
+      "LiteRealityAgent",
+      "fable5.1+input"
+    ]
+  },
+  "timingsMs": {
+    "PSi_2_meeting-Zhening": 183906,
+    "Airbnb-Cam-Zhening": 163907,
+    "Office-Elliott": 91447,
+    "Airbnb-Room-Zhening": 59455,
+    "MIL-Meeting-Zhening": 50387
+  },
+  "rows": [
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Office-Elliott",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Office-Elliott",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Office-Elliott",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Office-Elliott",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Office-Elliott",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Office-Elliott",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Office-Elliott",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Office-Elliott",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Office-Elliott",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Office-Elliott",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Office-Elliott",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Office-Elliott",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "anon-mug65ytq-85bqi9",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 2
+    }
+  ]
+}
