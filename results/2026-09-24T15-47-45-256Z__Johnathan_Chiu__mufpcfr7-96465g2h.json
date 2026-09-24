@@ -1,0 +1,637 @@
+{
+  "study": "3D Scene Reconstruction — Perceptual Quality Study",
+  "submissionId": "mufpcfr7-96465g2h",
+  "configSig": "m1|m2|m3|m4::scene01|scene02|scene03|scene04|scene05|scene06|scene07|scene08|scene09|scene10::layout|objects|overall::n=5",
+  "participant": {
+    "id": "Johnathan Chiu",
+    "display": "",
+    "background": "Working knowledge"
+  },
+  "startedAt": "2026-09-24T15:44:03.523Z",
+  "finishedAt": "2026-09-24T15:47:44.622Z",
+  "durationMs": 221099,
+  "client": {
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/151.0.0.0 Safari/537.36",
+    "screen": "1512x982",
+    "tz": "Asia/Taipei"
+  },
+  "complete": true,
+  "sceneOrder": [
+    "fallside-kitchen-Zhening",
+    "MIL-Meeting-Zhening",
+    "Airbnb-Room-Zhening",
+    "Gallery_6130",
+    "Psi_2_seminar-Zhening"
+  ],
+  "methodOrder": {
+    "Office-Elliott": [
+      "LiteReality",
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent"
+    ],
+    "Gallery_6130": [
+      "LiteReality",
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent"
+    ],
+    "Corridors-MIL-Zhening": [
+      "LiteRealityAgent",
+      "LiteReality",
+      "GPT6v1+input",
+      "fable5.1+input"
+    ],
+    "Airbnb-Cam-Zhening": [
+      "LiteReality",
+      "LiteRealityAgent",
+      "fable5.1+input",
+      "GPT6v1+input"
+    ],
+    "Airbnb-Room-Zhening": [
+      "LiteRealityAgent",
+      "GPT6v1+input",
+      "LiteReality",
+      "fable5.1+input"
+    ],
+    "fallside-kitchen-Zhening": [
+      "fable5.1+input",
+      "LiteReality",
+      "LiteRealityAgent",
+      "GPT6v1+input"
+    ],
+    "MIL-Meeting-Zhening": [
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "LiteReality",
+      "GPT6v1+input"
+    ],
+    "Psi_2_seminar-Zhening": [
+      "GPT6v1+input",
+      "LiteReality",
+      "fable5.1+input",
+      "LiteRealityAgent"
+    ],
+    "fallside-office-Zhening": [
+      "GPT6v1+input",
+      "LiteRealityAgent",
+      "fable5.1+input",
+      "LiteReality"
+    ],
+    "PSi_2_meeting-Zhening": [
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "LiteReality"
+    ]
+  },
+  "timingsMs": {
+    "fallside-kitchen-Zhening": 68165,
+    "MIL-Meeting-Zhening": 50076,
+    "Airbnb-Room-Zhening": 29150,
+    "Gallery_6130": 33942,
+    "Psi_2_seminar-Zhening": 39729
+  },
+  "rows": [
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Gallery_6130",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Gallery_6130",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Gallery_6130",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Gallery_6130",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Gallery_6130",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Gallery_6130",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Gallery_6130",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Gallery_6130",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Gallery_6130",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Gallery_6130",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Gallery_6130",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Gallery_6130",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "Johnathan Chiu",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 4
+    }
+  ]
+}
