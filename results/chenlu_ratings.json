@@ -1,0 +1,637 @@
+{
+  "study": "3D Scene Reconstruction — Perceptual Quality Study",
+  "submissionId": "mufppwiy-amngwwx7",
+  "configSig": "m1|m2|m3|m4::scene01|scene02|scene03|scene04|scene05|scene06|scene07|scene08|scene09|scene10::layout|objects|overall::n=5",
+  "participant": {
+    "id": "chenlu",
+    "display": "",
+    "background": "Expert / I work in this area"
+  },
+  "startedAt": "2026-09-24T15:54:31.785Z",
+  "finishedAt": "2026-09-24T16:07:10.179Z",
+  "durationMs": 758394,
+  "client": {
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/152.0.0.0 Safari/537.36",
+    "screen": "1920x1080",
+    "tz": "Europe/London"
+  },
+  "complete": true,
+  "sceneOrder": [
+    "scene05",
+    "scene04",
+    "scene09",
+    "scene10",
+    "scene02"
+  ],
+  "methodOrder": {
+    "scene01": [
+      "m3",
+      "m2",
+      "m4",
+      "m1"
+    ],
+    "scene02": [
+      "m4",
+      "m2",
+      "m3",
+      "m1"
+    ],
+    "scene03": [
+      "m2",
+      "m3",
+      "m4",
+      "m1"
+    ],
+    "scene04": [
+      "m1",
+      "m3",
+      "m4",
+      "m2"
+    ],
+    "scene05": [
+      "m2",
+      "m1",
+      "m3",
+      "m4"
+    ],
+    "scene06": [
+      "m3",
+      "m2",
+      "m4",
+      "m1"
+    ],
+    "scene07": [
+      "m4",
+      "m3",
+      "m1",
+      "m2"
+    ],
+    "scene08": [
+      "m2",
+      "m3",
+      "m4",
+      "m1"
+    ],
+    "scene09": [
+      "m2",
+      "m1",
+      "m4",
+      "m3"
+    ],
+    "scene10": [
+      "m4",
+      "m1",
+      "m2",
+      "m3"
+    ]
+  },
+  "timingsMs": {
+    "scene05": 235158,
+    "scene04": 155593,
+    "scene09": 106962,
+    "scene10": 139037,
+    "scene02": 121624
+  },
+  "rows": [
+    {
+      "participant": "chenlu",
+      "scene": "scene05",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene05",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene05",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene05",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene05",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene05",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene05",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene05",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene05",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene05",
+      "method": "m4",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene05",
+      "method": "m4",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene05",
+      "method": "m4",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene04",
+      "method": "m1",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene04",
+      "method": "m1",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene04",
+      "method": "m1",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene04",
+      "method": "m3",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene04",
+      "method": "m3",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene04",
+      "method": "m3",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene04",
+      "method": "m4",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene04",
+      "method": "m4",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene04",
+      "method": "m4",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene04",
+      "method": "m2",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene04",
+      "method": "m2",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene04",
+      "method": "m2",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene09",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene09",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene09",
+      "method": "m2",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene09",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene09",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene09",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene09",
+      "method": "m4",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene09",
+      "method": "m4",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene09",
+      "method": "m4",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene09",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene09",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene09",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene10",
+      "method": "m4",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene10",
+      "method": "m4",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene10",
+      "method": "m4",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene10",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene10",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene10",
+      "method": "m1",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene10",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene10",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene10",
+      "method": "m2",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene10",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene10",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene10",
+      "method": "m3",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene02",
+      "method": "m4",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene02",
+      "method": "m4",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene02",
+      "method": "m4",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene02",
+      "method": "m2",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene02",
+      "method": "m2",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene02",
+      "method": "m2",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 5
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene02",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene02",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene02",
+      "method": "m3",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene02",
+      "method": "m1",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene02",
+      "method": "m1",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "chenlu",
+      "scene": "scene02",
+      "method": "m1",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 1
+    }
+  ]
+}
