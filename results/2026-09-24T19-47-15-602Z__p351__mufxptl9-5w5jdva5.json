@@ -1,0 +1,637 @@
+{
+  "study": "3D Scene Reconstruction — Perceptual Quality Study",
+  "submissionId": "mufxptl9-5w5jdva5",
+  "configSig": "m1|m2|m3|m4::scene01|scene02|scene03|scene04|scene05|scene06|scene07|scene08|scene09|scene10::layout|objects|overall::n=5",
+  "participant": {
+    "id": "p351",
+    "display": "",
+    "background": "Expert / I work in this area"
+  },
+  "startedAt": "2026-09-24T19:38:24.909Z",
+  "finishedAt": "2026-09-24T19:47:15.394Z",
+  "durationMs": 530485,
+  "client": {
+    "ua": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/153.0.0.0 Safari/537.36",
+    "screen": "1280x832",
+    "tz": "America/New_York"
+  },
+  "complete": true,
+  "sceneOrder": [
+    "MIL-Meeting-Zhening",
+    "Airbnb-Room-Zhening",
+    "PSi_2_meeting-Zhening",
+    "Psi_2_seminar-Zhening",
+    "Airbnb-Cam-Zhening"
+  ],
+  "methodOrder": {
+    "Office-Elliott": [
+      "LiteRealityAgent",
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteReality"
+    ],
+    "Gallery_6130": [
+      "GPT6v1+input",
+      "LiteRealityAgent",
+      "fable5.1+input",
+      "LiteReality"
+    ],
+    "Corridors-MIL-Zhening": [
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "GPT6v1+input",
+      "LiteReality"
+    ],
+    "Airbnb-Cam-Zhening": [
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "LiteReality"
+    ],
+    "Airbnb-Room-Zhening": [
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "LiteReality"
+    ],
+    "fallside-kitchen-Zhening": [
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "LiteReality"
+    ],
+    "MIL-Meeting-Zhening": [
+      "LiteRealityAgent",
+      "LiteReality",
+      "GPT6v1+input",
+      "fable5.1+input"
+    ],
+    "Psi_2_seminar-Zhening": [
+      "LiteRealityAgent",
+      "LiteReality",
+      "GPT6v1+input",
+      "fable5.1+input"
+    ],
+    "fallside-office-Zhening": [
+      "LiteReality",
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "GPT6v1+input"
+    ],
+    "PSi_2_meeting-Zhening": [
+      "GPT6v1+input",
+      "LiteRealityAgent",
+      "LiteReality",
+      "fable5.1+input"
+    ]
+  },
+  "timingsMs": {
+    "MIL-Meeting-Zhening": 120857,
+    "Airbnb-Room-Zhening": 148604,
+    "PSi_2_meeting-Zhening": 62011,
+    "Psi_2_seminar-Zhening": 109006,
+    "Airbnb-Cam-Zhening": 89986
+  },
+  "rows": [
+    {
+      "participant": "p351",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 5
+    },
+    {
+      "participant": "p351",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 5
+    },
+    {
+      "participant": "p351",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "p351",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "p351",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "p351",
+      "scene": "MIL-Meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Room-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "p351",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "p351",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "p351",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "p351",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "p351",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "p351",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Psi_2_seminar-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "p351",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 1
+    }
+  ]
+}
