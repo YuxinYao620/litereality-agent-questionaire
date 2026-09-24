@@ -1,0 +1,637 @@
+{
+  "study": "3D Scene Reconstruction — Perceptual Quality Study",
+  "submissionId": "mufwhs6z-0tw6puy4",
+  "configSig": "m1|m2|m3|m4::scene01|scene02|scene03|scene04|scene05|scene06|scene07|scene08|scene09|scene10::layout|objects|overall::n=5",
+  "participant": {
+    "id": "lily",
+    "display": "",
+    "background": "Expert / I work in this area"
+  },
+  "startedAt": "2026-09-24T19:04:10.235Z",
+  "finishedAt": "2026-09-24T19:11:10.643Z",
+  "durationMs": 420408,
+  "client": {
+    "ua": "Mozilla/5.0 (iPhone; CPU iPhone OS 26_5 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 MicroMessenger/8.0.78(0x18004e2f) NetType/WIFI Language/zh_CN",
+    "screen": "430x932",
+    "tz": "Europe/London"
+  },
+  "complete": true,
+  "sceneOrder": [
+    "Corridors-MIL-Zhening",
+    "fallside-kitchen-Zhening",
+    "Airbnb-Cam-Zhening",
+    "PSi_2_meeting-Zhening",
+    "fallside-office-Zhening"
+  ],
+  "methodOrder": {
+    "Office-Elliott": [
+      "LiteReality",
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "GPT6v1+input"
+    ],
+    "Gallery_6130": [
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteReality",
+      "LiteRealityAgent"
+    ],
+    "Corridors-MIL-Zhening": [
+      "GPT6v1+input",
+      "LiteReality",
+      "LiteRealityAgent",
+      "fable5.1+input"
+    ],
+    "Airbnb-Cam-Zhening": [
+      "LiteReality",
+      "LiteRealityAgent",
+      "fable5.1+input",
+      "GPT6v1+input"
+    ],
+    "Airbnb-Room-Zhening": [
+      "fable5.1+input",
+      "LiteReality",
+      "LiteRealityAgent",
+      "GPT6v1+input"
+    ],
+    "fallside-kitchen-Zhening": [
+      "LiteReality",
+      "GPT6v1+input",
+      "LiteRealityAgent",
+      "fable5.1+input"
+    ],
+    "MIL-Meeting-Zhening": [
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "LiteReality",
+      "GPT6v1+input"
+    ],
+    "Psi_2_seminar-Zhening": [
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteReality",
+      "LiteRealityAgent"
+    ],
+    "fallside-office-Zhening": [
+      "GPT6v1+input",
+      "fable5.1+input",
+      "LiteRealityAgent",
+      "LiteReality"
+    ],
+    "PSi_2_meeting-Zhening": [
+      "fable5.1+input",
+      "GPT6v1+input",
+      "LiteRealityAgent",
+      "LiteReality"
+    ]
+  },
+  "timingsMs": {
+    "Corridors-MIL-Zhening": 176761,
+    "fallside-kitchen-Zhening": 61018,
+    "Airbnb-Cam-Zhening": 50189,
+    "PSi_2_meeting-Zhening": 90089,
+    "fallside-office-Zhening": 42310
+  },
+  "rows": [
+    {
+      "participant": "lily",
+      "scene": "Corridors-MIL-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "lily",
+      "scene": "Corridors-MIL-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "lily",
+      "scene": "Corridors-MIL-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "lily",
+      "scene": "Corridors-MIL-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "lily",
+      "scene": "Corridors-MIL-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "lily",
+      "scene": "Corridors-MIL-Zhening",
+      "method": "LiteReality",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "lily",
+      "scene": "Corridors-MIL-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "Corridors-MIL-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "Corridors-MIL-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "Corridors-MIL-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "Corridors-MIL-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "Corridors-MIL-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-kitchen-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "lily",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "lily",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteReality",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 1
+    },
+    {
+      "participant": "lily",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "Airbnb-Cam-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "lily",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "lily",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "lily",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "PSi_2_meeting-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-office-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "layout",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-office-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "objects",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-office-Zhening",
+      "method": "GPT6v1+input",
+      "shownAs": "A",
+      "position": 1,
+      "question": "overall",
+      "rating": 3
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-office-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "layout",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-office-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "objects",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-office-Zhening",
+      "method": "fable5.1+input",
+      "shownAs": "B",
+      "position": 2,
+      "question": "overall",
+      "rating": 4
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "layout",
+      "rating": 2
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "objects",
+      "rating": 2
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteRealityAgent",
+      "shownAs": "C",
+      "position": 3,
+      "question": "overall",
+      "rating": 2
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "layout",
+      "rating": 1
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "objects",
+      "rating": 1
+    },
+    {
+      "participant": "lily",
+      "scene": "fallside-office-Zhening",
+      "method": "LiteReality",
+      "shownAs": "D",
+      "position": 4,
+      "question": "overall",
+      "rating": 1
+    }
+  ]
+}
